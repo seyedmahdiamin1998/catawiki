@@ -52,8 +52,12 @@ $ scrapy crawl car -o results.xml
 ___
 
 ## result example
-![Screenshot](.//assets//img//database.JPG)
 
-___
+### Table Classic Cars
+![Screenshot](.//assets//img//cars.JPG)
+
+### Table Sellers
+![Screenshot](.//assets//img//sellers.JPG)
+
 ## License
 This project is licensed under the terms of the MIT license.
