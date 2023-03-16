@@ -2,10 +2,10 @@ import scrapy
 from scrapy.exceptions import CloseSpider
 import json
 
-class CarSpider(scrapy.Spider):
-    name = "car" # !!! Pay attention !!! We use this name as category name of product.
+class JewellerySpider(scrapy.Spider):
+    name = "jewellery" # !!! Pay attention !!! We use this name as category name of product.
     allowed_domains = ["www.catawiki.com"]
-    start_urls = ["https://www.catawiki.com/en/c/423-classic-cars"]
+    start_urls = ["https://www.catawiki.com/en/c/313-jewellery"]
     no_page = 1
 
     def parse(self, response):
